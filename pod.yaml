@@ -8,3 +8,6 @@ spec:
     image: hyunowk/flaskapp:latest
     ports:
     - containerPort: 5000
+    
+  imagePullSecrets:
+  - name: myregistrykey
